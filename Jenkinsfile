@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('Script File') {
       steps {
-        sh '''#!/bin/bash
-echo $"Hello Magloire"'''
+        sh 'echo $"Hello Magloire"'
       }
     }
   }
